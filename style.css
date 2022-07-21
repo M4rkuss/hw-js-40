@@ -53,3 +53,25 @@ html, body, * {
 .select-filial select{
     width: 50%;
 }
+
+#accordion {
+    width: 60%;
+    margin: 100px auto;
+    border: 1px solid #000;
+}
+
+#accordion h3 {
+    background: #518cbb;
+    padding: 5px;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+#accordion h3:hover {
+    cursor: pointer;
+}
+
+#accordion div {
+    padding: 5px;
+    background: #b5dce9;
+}
